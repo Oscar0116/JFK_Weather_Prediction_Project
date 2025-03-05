@@ -41,12 +41,11 @@ JFK_Weather_Prediction_Project
 |       polynomial_regression.pkl
 |       ridge_regression.pkl
 |
-+---notebooks
 +---results
 |       best_model.txt
 |       model_evaluation_results.csv
 |
-+---scripts
+\---scripts
         01_download_noaa.py
         02_explore_data.py
         03_data_preprocessing.py
