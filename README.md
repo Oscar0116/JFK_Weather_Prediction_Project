@@ -3,56 +3,7 @@
 This project focuses on predicting weather at JFK Airport using the NOAA Weather Dataset. The goal is to preprocess the data, perform exploratory data analysis (EDA), and create models to make accurate predictions.
 
 ## Project Structure
-JFK_Weather_Prediction_Project
-+---data
-|   +---processed
-|   |       test_data.csv
-|   |       train_data.csv
-|   |
-|   \---raw
-|       |   ._noaa-weather-sample-data
-|       |
-|       \---noaa-weather-sample-data
-|               ._LICENSE.txt
-|               ._README.txt
-|               jfk_weather_sample.csv
-|               LICENSE.txt
-|               README.txt
-|
-+---images
-|       boxplots.png
-|       histograms.png
-|       lasso_regression.png
-|       linear_regression_dry_bulb_temp_f.png
-|       linear_regression_multivariate.png
-|       linear_regression_relative_humidity.png
-|       linear_regression_station_pressure.png
-|       linear_regression_wind_speed.png
-|       polynomial_regression.png
-|       ridge_regression.png
-|
-+---models
-|       lasso_regression.pkl
-|       linear_regression_dry_bulb_temp_f.pkl
-|       linear_regression_multivariate.pkl
-|       linear_regression_relative_humidity.pkl
-|       linear_regression_station_pressure.pkl
-|       linear_regression_wind_speed.pkl
-|       polynomial_regression.pkl
-|       ridge_regression.pkl
-|
-+---results
-|       best_model.txt
-|       model_evaluation_results.csv
-|
-\---scripts
-        01_download_noaa.py
-        02_explore_data.py
-        03_data_preprocessing.py
-        04_exploratory_data_analysis.py
-        05_linear_regression.py
-        06_improved_models.py
-        07_model_evaluation.py
+JFK_Weather_Prediction_Project ├── data │ ├── processed │ │ ├── test_data.csv │ │ └── train_data.csv │ └── raw │ ├── ._noaa-weather-sample-data │ └── noaa-weather-sample-data │ ├── ._LICENSE.txt │ ├── ._README.txt │ ├── jfk_weather_sample.csv │ ├── LICENSE.txt │ └── README.txt ├── images │ ├── boxplots.png │ ├── histograms.png │ ├── lasso_regression.png │ ├── linear_regression_dry_bulb_temp_f.png │ ├── linear_regression_multivariate.png │ ├── linear_regression_relative_humidity.png │ ├── linear_regression_station_pressure.png │ ├── linear_regression_wind_speed.png │ ├── polynomial_regression.png │ └── ridge_regression.png ├── models │ ├── lasso_regression.pkl │ ├── linear_regression_dry_bulb_temp_f.pkl │ ├── linear_regression_multivariate.pkl │ ├── linear_regression_relative_humidity.pkl │ ├── linear_regression_station_pressure.pkl │ ├── linear_regression_wind_speed.pkl │ ├── polynomial_regression.pkl │ └── ridge_regression.pkl ├── results │ ├── best_model.txt │ └── model_evaluation_results.csv ├── scripts │ ├── 01_download_noaa.py │ ├── 02_explore_data.py │ ├── 03_data_preprocessing.py │ ├── 04_exploratory_data_analysis.py │ ├── 05_linear_regression.py │ ├── 06_improved_models.py │ └── 07_model_evaluation.py
 
 ## Model Results
 
