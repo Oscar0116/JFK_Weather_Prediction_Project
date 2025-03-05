@@ -3,8 +3,23 @@
 This project focuses on predicting weather at JFK Airport using the NOAA Weather Dataset. The goal is to preprocess the data, perform exploratory data analysis (EDA), and create models to make accurate predictions.
 
 ## Project Structure
-JFK_Weather_Prediction_Project ├── data │ ├── processed │ │ ├── test_data.csv │ │ └── train_data.csv │ └── raw │ ├── ._noaa-weather-sample-data │ └── noaa-weather-sample-data │ ├── ._LICENSE.txt │ ├── ._README.txt │ ├── jfk_weather_sample.csv │ ├── LICENSE.txt │ └── README.txt ├── images │ ├── boxplots.png │ ├── histograms.png │ ├── lasso_regression.png │ ├── linear_regression_dry_bulb_temp_f.png │ ├── linear_regression_multivariate.png │ ├── linear_regression_relative_humidity.png │ ├── linear_regression_station_pressure.png │ ├── linear_regression_wind_speed.png │ ├── polynomial_regression.png │ └── ridge_regression.png ├── models │ ├── lasso_regression.pkl │ ├── linear_regression_dry_bulb_temp_f.pkl │ ├── linear_regression_multivariate.pkl │ ├── linear_regression_relative_humidity.pkl │ ├── linear_regression_station_pressure.pkl │ ├── linear_regression_wind_speed.pkl │ ├── polynomial_regression.pkl │ └── ridge_regression.pkl ├── results │ ├── best_model.txt │ └── model_evaluation_results.csv ├── scripts │ ├── 01_download_noaa.py │ ├── 02_explore_data.py │ ├── 03_data_preprocessing.py │ ├── 04_exploratory_data_analysis.py │ ├── 05_linear_regression.py │ ├── 06_improved_models.py │ └── 07_model_evaluation.py
-
+```
+📂 rainfall_prediction_classifier_project
+├── 📂 data                  # Raw and processed data
+   ├── 📂 processed
+   ├── 📂 raw          
+├── 📂 images                # Saved plot images
+├── 📂 models                # Saved models
+├── 📂 scripts               # Python scripts for different stages
+│   ├── 01_download_noaa.py                   # Load and preprocess the dataset
+│   ├── 02_explore_data.py                    # Handle missing values and clean data
+│   ├── 03_data_preprocessing.py              # Feature extraction and transformation
+│   ├── 04_exploratory_data_analysis.py       # Define the preprocessing pipeline
+│   ├── 05_linear_regression.py               # Train linear regression model
+│   ├── 06_improved_models.py                 # Trains and evaluates multiple regression models
+│   ├── 07_model_evaluation.py                # Evaluate multiple models and identify the best one
+└── README.md                  # Project summary and instructions
+```
 ## Model Results
 
 The following models were evaluated:
